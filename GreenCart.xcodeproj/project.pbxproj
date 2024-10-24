@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F7316B282CC7E79F00EB42DC /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F7316B272CC7E79F00EB42DC /* FirebaseCore */; };
+		F73DD9782CBE820C0017209B /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD9772CBE820C0017209B /* Gilroy-Bold.ttf */; };
+		F73DD97C2CBE82270017209B /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD9792CBE82270017209B /* Gilroy-Medium.ttf */; };
+		F73DD97D2CBE82270017209B /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD97A2CBE82270017209B /* Gilroy-Regular.ttf */; };
+		F73DD97E2CBE82270017209B /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD97B2CBE82270017209B /* Gilroy-SemiBold.ttf */; };
+		F73DD9832CBE82560017209B /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD9802CBE82560017209B /* Gilroy-Light.ttf */; };
+		F73DD9842CBE82560017209B /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD9812CBE82560017209B /* Gilroy-Thin.ttf */; };
+		F73DD9852CBE82560017209B /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD97F2CBE82560017209B /* Gilroy-Heavy.ttf */; };
+		F73DD9862CBE82560017209B /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F73DD9822CBE82560017209B /* Gilroy-UltraLight.ttf */; };
+		F7A484DF2CC7D51F005F116A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F7A484DE2CC7D51F005F116A /* FirebaseStorage */; };
+		F7EEA6842CC283E3002ED7E1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F7EEA6832CC283E3002ED7E1 /* FirebaseAnalytics */; };
+		F7EEA6862CC283E3002ED7E1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F7EEA6852CC283E3002ED7E1 /* FirebaseAuth */; };
+		F7EEA6882CC283E3002ED7E1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F7EEA6872CC283E3002ED7E1 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F73DD95A2CBE7C4B0017209B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +43,32 @@
 		F73DD9492CBE7C4A0017209B /* GreenCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73DD9592CBE7C4B0017209B /* GreenCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73DD9632CBE7C4B0017209B /* GreenCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73DD9772CBE820C0017209B /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		F73DD9792CBE82270017209B /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		F73DD97A2CBE82270017209B /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		F73DD97B2CBE82270017209B /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		F73DD97F2CBE82560017209B /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		F73DD9802CBE82560017209B /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		F73DD9812CBE82560017209B /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		F73DD9822CBE82560017209B /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F73DD9882CBE82740017209B /* Exceptions for "GreenCart" folder in "GreenCart" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F73DD9482CBE7C4A0017209B /* GreenCart */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F73DD94B2CBE7C4A0017209B /* GreenCart */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F73DD9882CBE82740017209B /* Exceptions for "GreenCart" folder in "GreenCart" target */,
+			);
 			path = GreenCart;
 			sourceTree = "<group>";
 		};
@@ -52,6 +89,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7EEA6842CC283E3002ED7E1 /* FirebaseAnalytics in Frameworks */,
+				F7316B282CC7E79F00EB42DC /* FirebaseCore in Frameworks */,
+				F7A484DF2CC7D51F005F116A /* FirebaseStorage in Frameworks */,
+				F7EEA6862CC283E3002ED7E1 /* FirebaseAuth in Frameworks */,
+				F7EEA6882CC283E3002ED7E1 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				F73DD94B2CBE7C4A0017209B /* GreenCart */,
+				F73DD9762CBE7C580017209B /* Fonts */,
 				F73DD95C2CBE7C4B0017209B /* GreenCartTests */,
 				F73DD9662CBE7C4B0017209B /* GreenCartUITests */,
 				F73DD94A2CBE7C4A0017209B /* Products */,
+				F7A484DD2CC7D51F005F116A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +134,28 @@
 				F73DD9632CBE7C4B0017209B /* GreenCartUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F73DD9762CBE7C580017209B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F73DD97F2CBE82560017209B /* Gilroy-Heavy.ttf */,
+				F73DD9802CBE82560017209B /* Gilroy-Light.ttf */,
+				F73DD9812CBE82560017209B /* Gilroy-Thin.ttf */,
+				F73DD9822CBE82560017209B /* Gilroy-UltraLight.ttf */,
+				F73DD9792CBE82270017209B /* Gilroy-Medium.ttf */,
+				F73DD97A2CBE82270017209B /* Gilroy-Regular.ttf */,
+				F73DD97B2CBE82270017209B /* Gilroy-SemiBold.ttf */,
+				F73DD9772CBE820C0017209B /* Gilroy-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F7A484DD2CC7D51F005F116A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +178,11 @@
 			);
 			name = GreenCart;
 			packageProductDependencies = (
+				F7EEA6832CC283E3002ED7E1 /* FirebaseAnalytics */,
+				F7EEA6852CC283E3002ED7E1 /* FirebaseAuth */,
+				F7EEA6872CC283E3002ED7E1 /* FirebaseFirestore */,
+				F7A484DE2CC7D51F005F116A /* FirebaseStorage */,
+				F7316B272CC7E79F00EB42DC /* FirebaseCore */,
 			);
 			productName = GreenCart;
 			productReference = F73DD9492CBE7C4A0017209B /* GreenCart.app */;
@@ -195,6 +266,9 @@
 			);
 			mainGroup = F73DD9402CBE7C4A0017209B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F7EEA6822CC283E3002ED7E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F73DD94A2CBE7C4A0017209B /* Products */;
 			projectDirPath = "";
@@ -212,6 +286,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73DD9782CBE820C0017209B /* Gilroy-Bold.ttf in Resources */,
+				F73DD97C2CBE82270017209B /* Gilroy-Medium.ttf in Resources */,
+				F73DD97D2CBE82270017209B /* Gilroy-Regular.ttf in Resources */,
+				F73DD97E2CBE82270017209B /* Gilroy-SemiBold.ttf in Resources */,
+				F73DD9832CBE82560017209B /* Gilroy-Light.ttf in Resources */,
+				F73DD9842CBE82560017209B /* Gilroy-Thin.ttf in Resources */,
+				F73DD9852CBE82560017209B /* Gilroy-Heavy.ttf in Resources */,
+				F73DD9862CBE82560017209B /* Gilroy-UltraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,11 +481,13 @@
 				DEVELOPMENT_TEAM = 8TNP7LCQ34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenCart/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,11 +512,13 @@
 				DEVELOPMENT_TEAM = 8TNP7LCQ34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenCart/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,6 +644,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7EEA6822CC283E3002ED7E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7316B272CC7E79F00EB42DC /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7EEA6822CC283E3002ED7E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F7A484DE2CC7D51F005F116A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7EEA6822CC283E3002ED7E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F7EEA6832CC283E3002ED7E1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7EEA6822CC283E3002ED7E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F7EEA6852CC283E3002ED7E1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7EEA6822CC283E3002ED7E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F7EEA6872CC283E3002ED7E1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7EEA6822CC283E3002ED7E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F73DD9412CBE7C4A0017209B /* Project object */;
 }
